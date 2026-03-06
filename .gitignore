@@ -1,0 +1,11 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore massive datasets (CRITICAL for GitHub!)
+*.csv
+*.pkl
+transactions.pkl/
