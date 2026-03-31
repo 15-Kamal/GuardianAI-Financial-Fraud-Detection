@@ -10,3 +10,7 @@
 * Pandas & NumPy (Data Manipulation)
 * Scikit-Learn (Random Forest Classifier)
 * Imbalanced-Learn (SMOTE Oversampling)
+
+## Author
+Kamal P
+GitHub: https://github.com/15-Kamal
