@@ -1,5 +1,6 @@
 import pandas as pd
 import time
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
@@ -65,3 +66,7 @@ print("\n--- CLASSIFICATION REPORT ---")
 print(classification_report(y_test, y_pred))
 
 print("\nModel Trained!")
+
+print("\nSaving the AI model for the web app...")
+joblib.dump(model, 'fraud_model.pkl')
+print(" Model successfully saved as 'fraud_model.pkl'!")
