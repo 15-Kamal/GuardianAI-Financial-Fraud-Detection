@@ -68,5 +68,5 @@ print(classification_report(y_test, y_pred))
 print("\nModel Trained!")
 
 print("\nSaving the AI model for the web app...")
-joblib.dump(model, 'fraud_model.pkl')
+joblib.dump(model, 'fraud_model.pkl', compress=9)
 print(" Model successfully saved as 'fraud_model.pkl'!")
