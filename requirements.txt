@@ -1,18 +1,7 @@
-# Python
-__pycache__/
-*.pyc
-backend/venv/
-backend/__pycache__/
-*.pkl.bak
-
-# Node
-frontend/node_modules/
-frontend/build/
-
-# Env
-.env
-.env.local
-
-# OS
-.DS_Store
-Thumbs.db
+flask==3.0.3
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+imbalanced-learn==0.12.3
+numpy==1.26.4
+gunicorn==21.2.0
