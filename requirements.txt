@@ -1,5 +1,18 @@
-streamlit
-pandas
-scikit-learn
-joblib
-imbalanced-learn
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+backend/__pycache__/
+*.pkl.bak
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
