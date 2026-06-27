@@ -1,4 +1,4 @@
-# GuardianAI: Financial Fraud Detection (Random Forest & SMOTE)
+# GuardianAI: Financial Fraud Detection
 
 ### Overview
 * Developed a machine learning pipeline using **Random Forest** to classify fraudulent transactions within a highly imbalanced dataset of 1.75 million records.
@@ -6,10 +6,11 @@
 * Implemented **SMOTE** to handle a 0.84% minority class anomaly and optimized probabilistic decision thresholds, reducing false-positive alerts by over 97% while maintaining robust detection rates.
 
 ### Tech Stack
-* Python
+* Python(Flask)
 * Pandas & NumPy (Data Manipulation)
 * Scikit-Learn (Random Forest Classifier)
-* Imbalanced-Learn (SMOTE Oversampling)
+* React - Frontend
+
 
 ## Author
 Kamal P
